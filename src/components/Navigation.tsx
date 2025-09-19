@@ -40,7 +40,7 @@ const Navigation = () => {
   const downloadResume = () => {
     // Simulate resume download
     const link = document.createElement('a');
-    link.href = '/resume-alex-johnson.pdf'; // This would be a real PDF in production
+    link.href = 'https://drive.google.com/file/d/1fMrmaFgCxV8GhSfUrhVLMR5DkNFvcebx/view'; // This would be a real PDF in production
     link.download = 'Aryan_Nayak_Resume.pdf';
     document.body.appendChild(link);
     link.click();
@@ -88,7 +88,7 @@ const Navigation = () => {
                 {theme === 'dark' ? <Sun className="h-5 w-5" /> : <Moon className="h-5 w-5" />}
               </Button>
 
-              <a href="https://drive.google.com/uc?export=download&id=1WbOWo36_btM_98IkPDChXiPL9DmG4ffP" target="_blank" rel="noopener noreferrer" download="Aryan_Nayak_Resume.pdf">
+              <a href="https://drive.google.com/file/d/1fMrmaFgCxV8GhSfUrhVLMR5DkNFvcebx/view?usp=sharing" target="_blank" rel="noopener noreferrer" download="Aryan_Nayak_Resume.pdf">
                 <Button
                   variant="outline"
                   // onClick={downloadResume}
